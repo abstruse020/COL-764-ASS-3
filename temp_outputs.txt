@@ -1,0 +1,46 @@
+Page rank top 20 docs and scores for TF IDF similarity
+
+['comp.os.ms-windows.misc/10140' 'comp.windows.x/68012' 'sci.space/61435'
+ 'comp.graphics/38851' 'comp.windows.x/67988' 'comp.windows.x/67462'
+ 'comp.windows.x/67882' 'talk.religion.misc/84286' 'comp.windows.x/67987'
+ 'talk.politics.mideast/76479' 'comp.graphics/38853' 'comp.graphics/39078'
+ 'comp.graphics/39638' 'sci.med/59283' 'comp.sys.mac.hardware/52004'
+ 'comp.graphics/38852' 'talk.politics.mideast/77257' 'sci.med/59285'
+ 'comp.graphics/38778' 'sci.space/61253']
+[0.00013139 0.00013243 0.00013244 0.00013245 0.00013246 0.00013248
+ 0.00013248 0.00013251 0.00013251 0.00013252 0.00013252 0.00013253
+ 0.00013253 0.00013254 0.00013256 0.00013257 0.00013258 0.00013259
+ 0.00013259 0.0001326 ]
+ 
+ 
+ Page rank top 20 dosc and scores for Jacob similarity
+ 
+ ['comp.os.ms-windows.misc/10140' 'comp.windows.x/67988'
+ 'comp.windows.x/67987' 'rec.sport.hockey/54168' 'rec.sport.hockey/54205'
+ 'rec.sport.hockey/54538' 'comp.graphics/38851' 'rec.sport.hockey/54169'
+ 'comp.graphics/38853' 'sci.med/59574' 'rec.sport.hockey/54478'
+ 'comp.graphics/38852' 'sci.space/61435' 'comp.windows.x/68012'
+ 'sci.med/59285' 'rec.sport.hockey/53943' 'alt.atheism/53806'
+ 'rec.sport.hockey/54516' 'comp.windows.x/67882'
+ 'rec.sport.baseball/105108']
+[2.26723099e-05 2.49488413e-05 2.70599628e-05 3.97940139e-05
+ 4.69058909e-05 4.74716943e-05 4.87818934e-05 5.19611066e-05
+ 5.27712550e-05 5.41476607e-05 5.48563184e-05 5.51077606e-05
+ 5.64311939e-05 5.71489272e-05 5.78474990e-05 5.83283428e-05
+ 5.93790103e-05 5.99703584e-05 6.02264880e-05 6.05336942e-05]
+ 
+ 
+ Common docs which we got --
+ {'comp.graphics/38851',
+ 'comp.graphics/38852',
+ 'comp.graphics/38853',
+ 'comp.os.ms-windows.misc/10140',
+ 'comp.windows.x/67882',
+ 'comp.windows.x/67987',
+ 'comp.windows.x/67988',
+ 'comp.windows.x/68012',
+ 'sci.med/59285',
+ 'sci.space/61435'}
+ 
+ So out of 20 we got 10 common documents via different approaches of similarity computation
+ 
